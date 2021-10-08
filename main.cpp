@@ -1,4 +1,5 @@
 #include <iostream>
+#include<cmath>
 using namespace std;
 
 bool flag = true;
@@ -11,16 +12,12 @@ namespace box2 {
     int num = 20;
 }
 
+
 int main(){
-
-    // 域解析操作符
-    box2::num = 100;
-
-    // 使用命名空间
-    using namespace box1;
-    num = 20;
-
-    cout<<"hello world!"<<endl;
+    int a = 10;
+    int b = 3;
+    double result = static_cast<double>(a) / static_cast<double>(b);
+    cout<<result<<endl;
     return 0;
 }
 
