@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/davidzhang/Desktop/democ2/main.c
+stdio.h
+/Users/davidzhang/Desktop/democ2/stdio.h
+stdlib.h
+/Users/davidzhang/Desktop/democ2/stdlib.h
+math.h
+/Users/davidzhang/Desktop/democ2/math.h
+string.h
+/Users/davidzhang/Desktop/democ2/string.h
+
